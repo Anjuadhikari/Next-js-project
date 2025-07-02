@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Search, ChevronDown, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ServicesCard from "@/components/card";
+import ServicesCard from "@/components/service-card";
 import Pricing from "@/components/pricing";
 
 export default function ServicePage() {

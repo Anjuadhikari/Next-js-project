@@ -93,12 +93,12 @@ const Footer = () => {
               <h4 className="text-xl font-semibold mb-6">Support</h4>
               <ul className="space-y-4">
                 <li>
-                  <Link href="/help" className="flex items-center gap-3 text-white/80 hover:text-white text-sm">
+                  <Link href="/faqpage" className="flex items-center gap-3 text-white/80 hover:text-white text-sm">
                     <Check size={10} className="text-white" /> Help Center
                   </Link>
                 </li>
                 <li>
-                  <Link href="/status" className="flex items-center gap-3 text-white/80 hover:text-white text-sm">
+                  <Link href="/servicess" className="flex items-center gap-3 text-white/80 hover:text-white text-sm">
                     <Check size={10} className="text-white" /> Services Status
                   </Link>
                 </li>

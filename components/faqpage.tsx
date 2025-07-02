@@ -130,7 +130,7 @@ export default function FAQPage() {
                 Frequently Asked{" "}
                 <span className="text-[#112257]">Questions</span>
               </h1>
-              <p className="text-xl text-[#112257] mb-8 leading-relaxed">
+              <p className="text-md text-[#112257] mb-8 ">
                 Find answers to common questions about our platform, features,
                 and services. Can't find what you're looking for? Our support
                 team is here to help.
