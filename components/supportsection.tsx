@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 export default function SupportSection() {
   return (
@@ -19,7 +20,7 @@ export default function SupportSection() {
       </div>
 
    
-      <div className="w-full md:max-w-2xl px-4 md:px-2">
+      <div className="w-full md:max-w-2xl px-2 md:px-2">
         <h1 className="text-lg text-[#6872e1] mb-2">The work we do willingly</h1>
         <p className="text-[#112257] text-3xl sm:text-4xl px-1 sm:px-2 leading-snug">
           Are You Looking For <br />
@@ -33,16 +34,21 @@ export default function SupportSection() {
         </p>
 
      
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex gap-4 ">
           <Link href="/contact-us">
-            <button className="w-full sm:w-auto px-10 py-3 rounded-md bg-blue-500 text-white font-semibold transition-colors duration-300 hover:bg-blue-900 hover:cursor-pointer">
+            <Button
+              size="sm"
+            
+            className="sm:p-6 rounded-md bg-blue-500 text-white font-semibold transition-colors duration-300 hover:bg-blue-900 hover:cursor-pointer">
               Try for Free
-            </button>
+            </Button>
           </Link>
           <Link href="/about-us" >
-            <button className="w-full sm:w-auto px-10 py-3 rounded-md bg-blue-900 text-white font-semibold transition-colors duration-300 hover:bg-blue-500 hover:cursor-pointer">
+            <Button
+            size="sm"
+            className="sm:p-6 rounded-md bg-blue-900 text-white font-semibold transition-colors duration-300 hover:bg-blue-500 hover:cursor-pointer">
               Learn More
-            </button>
+            </Button>
           </Link>
         </div>
       </div>

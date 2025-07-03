@@ -64,8 +64,8 @@ export default function Hero() {
 
             <div>
               <Button
-                size="lg"
-                className="bg-[#112257] text-white hover:bg-[#6872e1] transition-colors duration-300 font-semibold px-10 py-6 hover:cursor-pointer mt-15 sm:px-10 sm:py-3 sm:w-auto"
+                size="sm"
+                className="sm:p-6 bg-[#112257] text-white hover:bg-[#6872e1] transition-colors duration-300 font-semibold hover:cursor-pointer mt-10"
               >
                 READ MORE
               </Button>
@@ -84,7 +84,7 @@ export default function Hero() {
 
           </div>
          
-          <div className="w-full  h-[450px] sm:h-[450px] ">
+          <div className="w-full  h-[290px] sm:h-[380px] ">
             <Image
               src="/hero-image.jpg"
               alt="About Us"

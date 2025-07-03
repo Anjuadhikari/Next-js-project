@@ -1,5 +1,5 @@
 import Features from "@/components/features";
-import Hero from "@/components/hero";
+import Hero from "@/components/secondbanner";
 import Maincontent from "@/components/maincontent";
 
 import Navbar from "@/components/navbar";

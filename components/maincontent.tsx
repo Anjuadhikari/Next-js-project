@@ -29,14 +29,18 @@ export default function Maincontent() {
           allowance. Use correct day new brought tedious. Kept easy or sons my
           it done.
         </p>
-        <div className="flex gap-4">
+        <div className="flex sm:gap-6 gap-4">
           <Link href="/contact-us">
-            <Button className=" md:px-10 py-3 rounded-md bg-blue-500 text-white font-semibold transition-colors duration-300 hover:bg-blue-900">
+            <Button
+              size="sm"
+             className=" sm:p-6 rounded-md bg-blue-500 text-white font-semibold transition-colors duration-300 hover:bg-blue-900">
               Try for Free
             </Button>
           </Link>
           <Link href="/about-us">
-            <Button className="md:px-10 py-3 rounded-md bg-blue-900 text-white font-semibold transition-colors duration-300 hover:bg-blue-500">
+            <Button
+              size="sm"
+              className="sm:p-6 rounded-md bg-blue-900 text-white font-semibold transition-colors duration-300 hover:bg-blue-500">
               Learn More
             </Button>
           </Link>
