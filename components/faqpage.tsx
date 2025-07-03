@@ -135,23 +135,23 @@ export default function FAQPage() {
                 and services. Can't find what you're looking for? Our support
                 team is here to help.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-[#112257]  hover:bg-blue-700">
-                  <MessageCircle className="h-5 w-5 mr-2" />
+              <div className="flex gap-4">
+                <Button size="sm" className=" sm:p-6 bg-[#112257]  hover:bg-blue-700">
+                
                   Contact Support
                 </Button>
-                <Button variant="outline" size="lg">
+                <Button variant="outline" size="sm" className=" sm:p-6 border-[#112257] text-[#112257] hover:bg-blue-100">
                   Browse All Articles
                 </Button>
               </div>
             </div>
             <div className="flex-1">
               <Image
-                src="/faq.jpg?height=400&width=500"
+                src="/faq.jpg"
                 alt="FAQ and Testimonial"
                 width={500}
                 height={400}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-xl"
               />
             </div>
           </div>

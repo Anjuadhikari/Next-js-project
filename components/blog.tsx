@@ -6,6 +6,7 @@ import { read } from "fs";
 import { Card, CardContent, CardHeader } from "./ui/card";
 import { Badge } from "./ui/badge";
 import Link from "next/link";
+import ProgressBar from "./progressbar";
 
 export default function Blog() {
   const BlogData = [
@@ -232,7 +233,8 @@ export default function Blog() {
             </div>
           </div>
           <div className="lg:w-1/3">
-            <Card className="bg-white shadow-md rounded-lg p-6 border-0 border-gray-200">
+        <div className="sticky top-20 flex flex-col gap-6">
+             <Card className="bg-white shadow-md rounded-lg p-6 border-0 border-gray-200">
               <h2 className="text-lg font-semibold text-[#112257] mb-4">
                 Search Blog Posts
               </h2>
@@ -302,16 +304,19 @@ export default function Blog() {
                 className="w-full h-auto rounded-lg"
               />
               <p className="text-gray-600 text-md mt-4">
-                Our Client Care Managers Are On Call 24/7 To Answer Your Question.
+                Our Client Care Managers Are On Call 24/7 To Answer Your
+                Question.
               </p>
-               <Link href="/contact-us" >
-            <Button className="w-full sm:w-auto px-10 py-3 rounded-md bg-blue-900 text-white font-semibold transition-colors duration-300 hover:bg-[#fc7953] hover:cursor-pointer">
-                Contact Us
-            </Button>
-          </Link>
+              <Link href="/contact-us">
+                <Button className="w-full sm:w-auto px-10 py-3 rounded-md bg-blue-900 text-white font-semibold transition-colors duration-300 hover:bg-[#fc7953] hover:cursor-pointer">
+                  Contact Us
+                </Button>
+              </Link>
             </Card>
+          </div> 
           </div>
         </div>
+      
       </div>
     </div>
   );
