@@ -22,7 +22,7 @@ export default function Maincontent() {
         </button>
 
         <h1 className="sm:text-5xl text-2xl font-extrabold mt-4 mb-4 leading-tight text-[#112257]">
-          We create digital products that matter
+          We create digital products that matter to all
         </h1>
         <p className="sm:text-lg text-sm mb-6 text-[#112257] mt-4">
           Contented continued any happiness instantly objection yet her
